@@ -1,7 +1,7 @@
 if __name__ == '__main__':
-    # 기준 문자열 ms를 입력받습니다.
+    # 기준 문자열 ms를 입력받음
     ms = input()
-    # 단어의 개수 n을 입력받습니다.
+    # 단어의 개수 n을 입력받음
     n = int(input())
     # 단어 리스트 w_list를 입력받고 정렬
     w_list = sorted([input() for i in range(n)])
