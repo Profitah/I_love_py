@@ -1,9 +1,9 @@
-def gum_gum_for_jay_jay():
+def solution():
     answer = 0
     
     while True:
         try:
-            gum_gum = input()
+            x = input()
             answer += 1
         except EOFError:
             break
@@ -12,4 +12,4 @@ def gum_gum_for_jay_jay():
 
 
 if __name__ == "__main__":
-    print(gum_gum_for_jay_jay())
+    print(solution())
