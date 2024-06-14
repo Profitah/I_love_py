@@ -3,8 +3,9 @@ def ESM_Check():
 
     YearCheck = 1
     while True:
-        # 완전탐색을 통해 가능한 모든 연도를 순차적으로 검사.
-        if (YearCheck - E) % 15 == 0 and (YearCheck - S) % 28 == 0 and (YearCheck - M) % 19 == 0: # 15, 28, 19로 나누어 떨어지는 연도를 반복문을 통해 찾음.
+        # 순차적으로 조건을 만족하는 연도 찾기
+        # E, S, M 값이 각각 15, 28, 19로 나누어 떨어질 때 해당 연도를 출력하고 반복을 종료.
+        if (YearCheck - E) % 15 == 0 and (YearCheck - S) % 28 == 0 and (YearCheck - M) % 19 == 0: 
             print(YearCheck)
             break
         YearCheck += 1
