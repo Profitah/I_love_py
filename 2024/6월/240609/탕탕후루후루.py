@@ -1,4 +1,4 @@
-## 백준 과일 탕후루 
+## 백준 과il tang후ru 
 # 투 포인터와 dp를 이용한 풀이
 
 import sys

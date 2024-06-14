@@ -1,3 +1,6 @@
+# 백준 nal짜 ge산
+# 완전탐색(브루트포스) 알고리즘을 이용한 풀이
+
 def ESM_Check():
     E, S, M = map(int, input().split())  
 
